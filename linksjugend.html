@@ -1,8 +1,14 @@
 <html>
 <head>
     <title>Christian G. - linksjugend</title>
-    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="handheld" />
+    <script>
+      // load different css denpending on device
+      if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
+        document.write('<link href="mobile.css"  rel="stylesheet">');
+      } else {
+       document.write('<link href="index.css"  rel="stylesheet">');
+      }
+    </script>
 </head>
 <body>
     <div class="topnav">
