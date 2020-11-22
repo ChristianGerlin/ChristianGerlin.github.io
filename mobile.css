@@ -16,9 +16,9 @@
   float: left;
   color: #252525;
   text-align: center;
-  padding: 14px 16px;
+  padding: Calc(2*14px) Calc(2*16px);
   text-decoration: none;
-  font-size: 17px;
+  font-size: Calc(2*17px);
 }
 
 /* Change the color of links on hover */
@@ -74,4 +74,8 @@ body{
 
 .aboutmetext{
     font-size: 300%;
+}
+
+.feedsTopPadding{
+    padding-top: 20%
 }
