@@ -1,7 +1,15 @@
 <html>
 <head>
     <title>Christian G. - Über Mich</title>
-    <link rel="stylesheet" href="index.css"π>
+    <!-- Load platform specific styles -->
+    <script>
+      // load different css denpending on device
+      if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
+        document.write('<link href="mobile.css"  rel="stylesheet">');
+      } else {
+       document.write('<link href="index.css"  rel="stylesheet">');
+      }
+    </script>
 </head>
 <body>
     <div class="topnav">
@@ -13,9 +21,9 @@
         <a href="kontakt.html">Kontakt</a>
         <a class="active" href="aboutme.html">Über Mich</a>
     </div>
-    <a href=kontakt.html><img src=christian.png class="fixright"></a>
-    <p style="float:left;font-size: 200%; position: absolute;"><u><b>Über Mich</b></u></p><br><br><br><br>
-    <p style="clear: right; float: left; position: absolute;">Hey ich bin Christian und wohne im Speckgürtel Bremens und spiele gerne Gitarre und Tennis,<br>
+    <a href=kontakt.html><img src=christian.png class="fixright invisible"></a>
+    <p style="float:left; font-size: 200%; position: absolute;"><u><b>Über Mich</b></u></p><br><br><br><br>
+    <p style="clear: right; float: left; position: absolute;" class="aboutmetext">Hey ich bin Christian und wohne im Speckgürtel Bremens und spiele gerne Gitarre und Tennis,<br>
                                                               außerdem bin ich seit kurzem Landessprecher für Öffentlichkeitsarbeit und Finanzen bei der<br>
         <a href=https://de.wikipedia.org/wiki/Linksjugend_Solid>linksjugend</a> in Bremen und auch bei <a href=https://de.wikipedia.org/wiki/Die_Linke>DIE LINKE</a> aktiv. Auch bin ich 2002 geboren und mache<br>
                                                               dementsprechend noch mein Abitur. Danach möchte ich studieren. Entweder ein Kombistudien-<br>
@@ -27,5 +35,6 @@
                                                               so gemacht und veröffentlicht habe. Mir liegen vor allem die Themenschwerpunkte "gegen<br>
         <a href=https://de.wikipedia.org/wiki/Antisemitismus>Antisemitismus</a>", in all seinen Facetten, und <a href=https://de.wikipedia.org/wiki/Soziale_Gerechtigkeit>soziale Gerechtigkeit</a>, in seiner vielseitig-<br>
                                                               keit, am Herzen. Du möchtest wissen was ich so treibe? Dann schau dir alles hier gerne an.<br>
+    </p>
 </body>
 </html>

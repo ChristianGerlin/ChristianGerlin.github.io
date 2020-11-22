@@ -71,3 +71,7 @@ body{
 .invisible{
     visibility: hidden;
 }
+
+.aboutmetext{
+    font-size: 300%;
+}
