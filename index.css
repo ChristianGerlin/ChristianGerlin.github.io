@@ -67,3 +67,7 @@ body {
 body{
     margin:0;
 }
+
+.mobileonly{
+    display: none;
+}
