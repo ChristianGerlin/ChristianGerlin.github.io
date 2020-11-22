@@ -7,7 +7,7 @@
 
 .topnavfixed{
     position: fixed;
-    top: 0;
+    overflow: hidden;
     width: 100%;
 }
 
@@ -61,4 +61,9 @@ body {
    position: fixed;
    bottom: 0px;
    left: 0px;
+}
+
+/* remove Margin from Body */
+body{
+    margin:0;
 }
