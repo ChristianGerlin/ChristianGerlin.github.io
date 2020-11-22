@@ -71,3 +71,7 @@ body{
 .mobileonly{
     display: none;
 }
+
+.feedsTopPadding{
+    padding-top: 3%;
+}
