@@ -43,11 +43,9 @@ var swiper = {
 
 var gestureZone = document;
 var current = window.location.pathname;
-console.log(current);
 
 if(current=="/m.twitter.timeline1.html"){
     swiper.init(gestureZone, function(e) {
-        console.log(e);
         if(e=="left"){
             window.location.replace("m.twitter.timeline2.html");
         }
@@ -59,7 +57,6 @@ if(current=="/m.twitter.timeline1.html"){
 
 if(current=="/m.twitter.timeline2.html"){
     swiper.init(gestureZone, function(e) {
-        console.log(e);
         if(e=="left"){
             window.location.replace("m.twitter.timeline3.html");
         }
@@ -71,7 +68,6 @@ if(current=="/m.twitter.timeline2.html"){
 
 if(current=="/m.twitter.timeline3.html"){
     swiper.init(gestureZone, function(e) {
-        console.log(e);
         if(e=="left"){
             window.location.replace("m.twitter.timeline1.html");
         }
@@ -79,4 +75,8 @@ if(current=="/m.twitter.timeline3.html"){
             window.location.replace("m.twitter.timeline2.html");
         }
     })
+}
+
+function touchVisible() {
+    document.getElementById("touch").style.display="inherit";
 }
