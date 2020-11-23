@@ -79,3 +79,8 @@ body{
 .feedsTopPadding{
     padding-top: 20%
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
