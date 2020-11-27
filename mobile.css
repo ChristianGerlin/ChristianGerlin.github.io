@@ -34,8 +34,9 @@
 }
 /* change color of all text fields */
 p {
- color: #E2190C;
- font-size: 24px;
+    color: #E2190C;
+    font-size: 24px;
+    padding-left: 1%;
 }
 
 /* link color */
@@ -44,7 +45,8 @@ a {
 }
 
 h1 {
- color: #E2190C;
+    color: #E2190C;
+    padding-left: 1%;
 }
 
 /* changes the backgrounds color */
