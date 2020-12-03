@@ -81,3 +81,21 @@ body{
 .feedsTopPadding{
     padding-top: 3%;
 }
+
+input{
+    float: right;
+    color: #ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #252525;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+input:hover {
+  background-color: #00ffc2;
+  color: black;
+}

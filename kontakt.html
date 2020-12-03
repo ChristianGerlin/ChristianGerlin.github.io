@@ -8,12 +8,24 @@
     <meta name="author" content="Christian Gerlin">
     <title>Christian G. - Kontakt</title>
     <script>
-      // load different css denpending on device
-      if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
+        // load different css denpending on device
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
         document.write('<link href="mobile.css"  rel="stylesheet">');
-      } else {
-       document.write('<link href="index.css"  rel="stylesheet">');
-      }
+        } else {
+        document.write('<link href="index.css"  rel="stylesheet">');
+        }
+        function Dutzen(){
+            document.getElementById("Siezen").style.display="none";
+            document.getElementById("SiezenB").style.display="none";
+            document.getElementById("Dutzen").style.display="inherit";
+            document.getElementById("DutzenB").style.display="inherit";
+        }
+        function Siezen(){
+            document.getElementById("Dutzen").style.display="none";
+            document.getElementById("DutzenB").style.display="none";
+            document.getElementById("Siezen").style.display="inherit";
+            document.getElementById("SiezenB").style.display="inherit";
+        }
     </script>
 </head>
 <body>
@@ -25,7 +37,11 @@
         <a href="linksjugend.html">linksjugend</a>
         <a class="active" href="kontakt.html">Kontakt</a>
         <a href="aboutme.html">Über Mich</a>
+        <input id="SiezenB" type="button" value="Lieber Dutzen?" onclick="Dutzen()">
+        <input id="DutzenB" type="button" value="Lieber Siezen?" onclick="Siezen()" style="display: none">
     </div>
+        <p id="Siezen">Wenn Sie Fragen haben, Hilfe brauchen oder einfach mich erreichen wollen sind meine Kontaktdaten hier niedergeschrieben:</p>
+        <p id="Dutzen" style="display: none">Wenn Du Fragen hast, Hilfe brauchst oder einfach mich erreichen möchtest sind meine Kontaktdaten hier niedergeschrieben:</p>
     <p><b>Email:</b><br>
         ⠀⠀persönlich:    <a href="mailto:ChristianG@disroot.org">ChristianG@disroot.org</a><br>
         ⠀⠀Landesverband: <a href="mailto:infoœsolidhb.de">Info@SolidHB.de</a>
