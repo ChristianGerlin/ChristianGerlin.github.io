@@ -32,8 +32,14 @@
   background-color: #252525;
   color: white;
 }
-/* change color of all text fields */
+
+@font-face {
+  font-family: Infra-Regular;
+  src: url(Infra-Regular.otf);
+}
+
 p {
+    font-family: Infra-Regular;
     color: #E2190C;
     font-size: 24px;
     padding-left: 1%;
@@ -41,10 +47,12 @@ p {
 
 /* link color */
 a {
-  color: #c9ceff;
+    font-family: Infra-Regular;
+    color: #c9ceff;
 }
 
 h1 {
+    font-family: Infra-Regular;
     color: #E2190C;
     padding-left: 1%;
 }
