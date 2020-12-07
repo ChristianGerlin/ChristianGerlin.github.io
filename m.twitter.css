@@ -6,9 +6,10 @@
 }
 
 .botnavfixed{
-    position: relative;
+    position: fixed;
     overflow: hidden;
     width: 100%;
+    bottom: 0;
 }
 
 /* Style the links inside the navigation bar */
