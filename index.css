@@ -38,11 +38,20 @@
   src: url(Infra-Regular.otf);
 }
 
+@font-face {
+  font-family: Infra-Bold;
+  src: url(Infra-Bold.otf);
+}
+
 p {
     font-family: Infra-Regular;
     color: #E2190C;
     font-size: 24px;
     padding-left: 1%;
+}
+
+b {
+    font-family: Infra-Bold;
 }
 
 /* link color */
@@ -52,7 +61,7 @@ a {
 }
 
 h1 {
-    font-family: Infra-Regular;
+    font-family: Infra-Bold;
     color: #E2190C;
     padding-left: 1%;
 }
