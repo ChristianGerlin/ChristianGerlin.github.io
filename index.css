@@ -119,6 +119,14 @@ input:hover {
   color: black;
 }
 
-#aboutme {
+#padding {
     padding-right: 23%
+}
+
+#align {
+    text-align: left
+}
+
+.DesktoponlyTab {
+    content: "&emsp;"
 }

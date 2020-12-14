@@ -127,6 +127,14 @@ input:hover {
   color: black;
 }
 
-#aboutme {
+#leftPadding {
     padding-left: 2%
+}
+
+#align {
+    text-align: center
+}
+
+#Dutzen {
+    text-align: center
 }
