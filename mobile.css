@@ -144,3 +144,7 @@ input:hover {
     padding-left: 2%;
 }
 
+#liste {
+    text-align: center;
+    line-height: 1,5
+}
