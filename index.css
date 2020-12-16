@@ -134,3 +134,13 @@ input:hover {
 #liste {
     line-height: 1,5
 }
+
+.spacer {
+    width: 100%;
+}
+
+.blogEintragNav{
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+}

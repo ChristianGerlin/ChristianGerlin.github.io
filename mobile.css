@@ -148,3 +148,15 @@ input:hover {
     text-align: center;
     line-height: 1,5;
 }
+
+#blogEintrag {
+    padding-right: 2%;
+    padding-left: 2%;
+    font-size: 1.493vw;
+}
+
+.blogEintragNav{
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+}
