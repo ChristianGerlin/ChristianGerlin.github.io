@@ -160,3 +160,7 @@ input:hover {
     z-index: 500;
     width: 100%;
 }
+
+#kontakteMobile{
+    font-size: 200%;
+}
