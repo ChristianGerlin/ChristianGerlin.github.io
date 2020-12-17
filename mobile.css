@@ -164,3 +164,8 @@ input:hover {
 #kontakteMobile{
     font-size: 200%;
 }
+
+#offscreenMobile{
+    position: absolute;
+    left: -5000px;
+}

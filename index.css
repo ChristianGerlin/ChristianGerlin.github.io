@@ -121,7 +121,7 @@ input:hover {
 
 #padding {
     padding-right: 23%
-}
+}A
 
 #align {
     text-align: left
@@ -143,4 +143,9 @@ input:hover {
     position: fixed;
     z-index: 500;
     width: 100%;
+}
+
+#offscreenMobile{
+    position: absolute;
+    left: -5000px;
 }
