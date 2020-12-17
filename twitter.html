@@ -6,12 +6,10 @@
     <script>
       // load different css denpending on device
       if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
-        document.write('<link href="mobile.css"  rel="stylesheet">');
         window.location.replace("m.twitter.html");
-      } else {
-        document.write('<link href="index.css"  rel="stylesheet">');
       }
     </script>
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="topnav topnavfixed">
