@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<html lang=de>
+<head>
+    <title>Panel - Blogeintrag-Generator</title>
+    <script>
+        // load different css denpending on device
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
+        document.write('<link href="/mobile.css"  rel="stylesheet">');
+        } else {
+        document.write('<link href="/index.css"  rel="stylesheet">');
+        }
+    </script>
+    <script defer src="panel.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+</head>
+<body style="background-color: white;">
+    <div class="topnav">
+        <a class="active">Blogeintrag-Generator</a>
+    </div>
+
+    <input type="text" id="titel" placeholder="Überschrift des Blogeintrages hier eingeben" style="text-align: center; margin: auto; position: fixed; width: 100%; background-color: #00ffc2; color: 252525;"><br><br><br>
+
+    <input type="text" id="dateiname" placeholder="Dateiname des Blogeintrages hier eingeben" style="text-align: center; margin: auto; position: fixed; width: 100%; background-color: #00ffc2; color: 252525;"><br><br><br>
+
+    <input type="text" id="websiteTitel" placeholder="Website-Titel (das wird oben im Browser angezeigt, da wo jetzt 'Blog-Generator' steht)" style="text-align: center; margin: auto; position: fixed; width: 100%; background-color: #00ffc2; color: 252525;"><br><br><br>
+
+    <textarea id="Inhalt" placeholder="Inhalt hier eingeben" style="width: 100%;" rows="40"></textarea><br>
+    <button id="Speichern" onclick="Speichern()">Speichern (wenn alles fertig ist)</button>
+</body>
+</html>
