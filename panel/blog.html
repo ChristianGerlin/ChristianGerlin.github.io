@@ -7,6 +7,8 @@
         // load different css denpending on device
         if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
         document.write('<link href="/mobile.css"  rel="stylesheet">');
+        alert("Leider funktioniert dieser Generator zurzeit nur auf PCs und Laptops! Daran wird gearbeitet.");
+        window.stop();
         } else {
         document.write('<link href="/index.css"  rel="stylesheet">');
         }
