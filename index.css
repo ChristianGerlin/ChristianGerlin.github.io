@@ -36,13 +36,13 @@
 }
 
 @font-face {
-  font-family: Infra-Regular;
-  src: url(Infra-Regular.otf);
+  font-family: Infra-Regular; /* This actually is the current font */
+  src: url(Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: Infra-Bold;
-  src: url(Infra-Bold.otf);
+  font-family: Infra-Bold; /* This actually is the current font */
+  src: url(Roboto-Bold.ttf);
 }
 
 p {
