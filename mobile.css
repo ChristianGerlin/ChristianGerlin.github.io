@@ -61,10 +61,17 @@ a {
     color: #c9ceff;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Infra-Bold;
-    color: #E2190C;
+    color: #ffffff;
     padding-left: 1%;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+h1{
+    font-size: 300%
 }
 
 /* changes the backgrounds color */
@@ -96,7 +103,7 @@ body{
     display:none;
 }
 
-.aboutmetext{
+.aboutmetext .indextext{
     font-size: 275%;
 }
 
