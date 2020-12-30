@@ -92,13 +92,14 @@ h3, .h3 {
     font-weight: bold;
 }
 
-h4, .h4 {
+h4, .h4 { /* Used for lists */
     font-family: Infra-Bold;
     padding-left: 1%;
     color: #E2190C;
     font-size: 1.5rem;
     text-decoration: underline;
     font-weight: bold;
+    padding-left: 0;
 }
 
 h5, .h5 {
