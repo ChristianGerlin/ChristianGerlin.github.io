@@ -1,0 +1,158 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #252525;
+  overflow: hidden;
+  position: relative;
+}
+
+.topnavfixed{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #00ffc2;
+    color: black;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ffffff;
+    color: #252525;
+    font-family: Infra-Bold;
+}
+
+@font-face {
+  font-family: Infra-Regular;
+  src: url(Infra-Regular.otf);
+}
+
+@font-face {
+  font-family: Infra-Bold;
+  src: url(Infra-Bold.otf);
+}
+
+p {
+    font-family: Infra-Regular;
+    color: #E2190C;
+    font-size: 24px;
+    padding-left: 1%;
+    hyphens: auto
+}
+
+b {
+    font-family: Infra-Bold;
+    hyphens: auto
+}
+
+/* link color */
+a {
+    font-family: Infra-Regular;
+    color: #c9ceff;
+    hyphens: auto
+}
+
+h1 {
+    font-family: Infra-Bold;
+    color: #E2190C;
+    padding-left: 1%;
+}
+
+/* changes the backgrounds color */
+body {
+  background-color: #ffffff;
+}
+
+
+/* fix object to the bottom right side of the screen */
+.fixright{
+   position: fixed;
+   bottom: 0px;
+   right: 0px;
+}
+
+/* fix object to the bottom left side of the screen */
+.fixleft{
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+}
+
+/* remove Margin from Body */
+body{
+    margin:0;
+}
+
+.mobileonly{
+    display: none;
+}
+
+.feedsTopPadding{
+    padding-top: 3%;
+}
+
+input{
+    float: right;
+    color: #ffff;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #ffffff;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+input:hover {
+  background-color: #00ffc2;
+  color: black;
+}
+
+#padding {
+    padding-right: 23%
+}A
+
+#align {
+    text-align: left
+}
+
+.DesktoponlyTab {
+    content: "&emsp;"
+}
+
+#liste {
+    line-height: 1,5
+}
+
+.spacer {
+    width: 100%;
+}
+
+.blogEintragNav{
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+}
+
+#offscreenMobile{
+    position: absolute;
+    left: -5000px;
+}
+
+#indeximg {
+    max-width: 28%
+}
