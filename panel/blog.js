@@ -9,6 +9,7 @@ var filename;
 var content;
 var dateiname;
 var websiteTitel;
+var datum;
 
 function Speichern(){
     inhalt = simplemde.value().replace(/(?:\r\n|\r|\n)/g, '<br>');
@@ -44,6 +45,7 @@ function Speichern(){
     websiteTitel = websiteTitel.replace(/\u00df/g, '&szlig');
     websiteTitel = websiteTitel.replace(/\u0022/g, '&quot');
 
+
     content = '<!DOCTYPE html> \n\
             <html>\n\
             <html lang=de>\n\
@@ -51,6 +53,7 @@ function Speichern(){
                 <title>Christian G. - ' + websiteTitel + '</title>\n\
                 <script src="index.js"></script>\n\
                 <meta charset="utf-8"/>\n\
+                <time datetime="' + datum + '" pubdate="pubdate"></time>\n\
             </head>\n\
             <body>\n\
                 <div class="topnav blogEintragNav">\n\
