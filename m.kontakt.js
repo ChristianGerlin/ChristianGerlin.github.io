@@ -1,6 +1,7 @@
 var instagramVisible = "0";
 var facebookVisible = "0";
 var twitterVisible = "0";
+var emailVisible = "0";
 
 function instagram(){
     if (instagramVisible == "0") {
@@ -35,5 +36,17 @@ function twitter(){
         document.getElementById("twitter").style["display"] = "none";
         document.getElementById("twitterArrow").style["transform"] = "rotate(0deg)";
         twitterVisible = "0";
+    }
+}
+
+function email(){
+    if (emailVisible == "0") {
+        document.getElementById("email").style["display"] = "inherit";
+        document.getElementById("emailArrow").style["transform"] = "rotate(180deg)";
+        emailVisible = "1";
+    } else {
+        document.getElementById("email").style["display"] = "none";
+        document.getElementById("emailArrow").style["transform"] = "rotate(0deg)";
+        emailVisible = "0";
     }
 }

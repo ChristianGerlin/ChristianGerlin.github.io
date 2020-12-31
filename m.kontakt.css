@@ -1,8 +1,12 @@
-#instagram, #facebook, #twitter {
+#email, #instagram, #facebook, #twitter {
     display: none;
 }
 
-#instagramArrow, #facebookArrow, #twitterArrow{
+#emailArrow, #instagramArrow, #facebookArrow, #twitterArrow{
     content:url('red_arrow.png');
     height: 1em;
+}
+
+#mh4 {
+    font-size: 125%
 }
