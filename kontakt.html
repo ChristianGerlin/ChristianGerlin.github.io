@@ -8,6 +8,9 @@
     <meta name="author" content="Christian Gerlin">
     <title>Christian G. - Kontakt</title>
     <script>
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
+            window.location.replace("m.kontakt.html");
+        }
         function Dutzen(){
             document.getElementById("Siezen").style.display="none";
             document.getElementById("SiezenB").style.display="none";
@@ -36,7 +39,7 @@
         <input id="SiezenB" type="button" value="Lieber Dutzen?" onclick="Dutzen()">
         <input id="DutzenB" type="button" value="Lieber Siezen?" onclick="Siezen()" style="display: none">
     </div>
-        <p id="Siezen" style="text-align: center">Falls Sie Fragen haben, Hilfe brauchen oder mich erreichen wollen sind meine Kontaktdaten hier niedergeschrieben:</p>
+        <p id="Siezen" style="text-align: center">Falls Sie Fragen haben, Hilfe brauchen oder mich erreichen möchten sind meine Kontaktdaten hier niedergeschrieben:</p>
         <p id="Dutzen" style="display: none; text-align: center">Falls Du Fragen hast, Hilfe brauchst oder mich einfach erreichen möchtest findest du meine Kontaktdaten hier:</p>
     <p id="kontakteMobile" style="line-height: 1,5;"><span class="h4">Email:</span><br>
         &emsp;persönlich:    <a href="mailto:ChristianG@disroot.org">ChristianG@disroot.org</a><br>
