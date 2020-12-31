@@ -37,12 +37,12 @@
 
 @font-face {
   font-family: Infra-Regular;
-  src: url(Infra-Regular.otf);
+  src: url(/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: Infra-Bold;
-  src: url(Infra-Bold.otf);
+  src: url(/Roboto-Bold.ttf);
 }
 
 p {

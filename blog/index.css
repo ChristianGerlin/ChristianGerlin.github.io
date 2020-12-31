@@ -1,0 +1,19 @@
+#blogLink {
+    line-height: 100%;
+    position: relative;
+    border: 1px solid;
+}
+
+#datum {
+    color: gray;
+    font-size: 1.5rem;
+    float: right;
+}
+
+#inhaltPreview {
+    color: #E2190C;
+    hyphens: auto;
+    line-height: 1.15
+    -webkit-hyphens: auto;
+    max-width: 100%
+}

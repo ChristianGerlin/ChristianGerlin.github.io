@@ -10,6 +10,8 @@ var content;
 var dateiname;
 var websiteTitel;
 var datum;
+var blogLink;
+var inhaltPreview;
 
 function Speichern(){
     inhalt = simplemde.value().replace(/(?:\r\n|\r|\n)/g, '<br>');
@@ -17,6 +19,7 @@ function Speichern(){
     dateiname = document.getElementById('dateiname').value;
     filename = dateiname.replace(/[^a-z0-9+]+/gi, '_'); + '.html';
     websiteTitel = document.getElementById('websiteTitel').value;
+    datum = document.getElementById('datum').value;
 
     inhalt = inhalt.replace(/\u00c4/g, '&Auml');
     inhalt = inhalt.replace(/\u00e4/g, '&auml');
@@ -45,6 +48,7 @@ function Speichern(){
     websiteTitel = websiteTitel.replace(/\u00df/g, '&szlig');
     websiteTitel = websiteTitel.replace(/\u0022/g, '&quot');
 
+    datum = datum.replace('T', ' ');
 
     content = '<!DOCTYPE html> \n\
             <html>\n\
@@ -70,4 +74,6 @@ function Speichern(){
             </html>';
 
     download(content, filename, "text/html");
+    
+    
 }
