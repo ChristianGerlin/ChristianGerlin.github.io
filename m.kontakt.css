@@ -1,3 +1,8 @@
-#instagram {
+#instagram, #facebook, #twitter {
     display: none
+}
+
+#instagramArrow, #facebookArrow, #twitterArrow{
+    content:url('red_arrow.png');
+    height: 1em;
 }
