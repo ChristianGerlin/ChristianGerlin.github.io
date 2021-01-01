@@ -58,13 +58,13 @@ b {
 /* link color */
 a {
     font-family: Infra-Regular;
-    color: #c9ceff;
+    color: #E2190C;
     text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Infra-Bold;
-    color: #ffffff;
+    color: #c9ceff;
     padding-left: 1%;
     text-decoration: none;
     font-weight: bold;
@@ -85,6 +85,8 @@ h2, .h2 {
     text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
+
+    color: #c9ceff;
 }
 
 h3, .h3 {
@@ -92,14 +94,16 @@ h3, .h3 {
     text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
+    color: #ffffff;
 }
 
 h4, .h4 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #ffffff;
     padding-left: 2%;
     line-height: 1.25;
+
+    color: #ffffff;
 }
 
 h5, .h5 {
