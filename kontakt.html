@@ -7,23 +7,6 @@
     <meta name="keywords" content="Christian Gerlin, Kontaktdaten, E-Mail, erreichen">
     <meta name="author" content="Christian Gerlin">
     <title>Christian G. - Kontakt</title>
-    <script>
-        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
-            window.location.replace("m.kontakt.html");
-        }
-        function Dutzen(){
-            document.getElementById("Siezen").style.display="none";
-            document.getElementById("SiezenB").style.display="none";
-            document.getElementById("Dutzen").style.display="inherit";
-            document.getElementById("DutzenB").style.display="inherit";
-        }
-        function Siezen(){
-            document.getElementById("Dutzen").style.display="none";
-            document.getElementById("DutzenB").style.display="none";
-            document.getElementById("Siezen").style.display="inherit";
-            document.getElementById("SiezenB").style.display="inherit";
-        }
-    </script>
     <script src="index.js"></script>
     <link href="/kontakt.css"  rel="stylesheet">
     <style>b{color: #ffffff}</style>
@@ -38,11 +21,8 @@
         <a href="linksjugend.html">linksjugend</a>
         <a class="active" href="kontakt.html">Kontakt</a>
         <a href="aboutme.html">Über Mich</a>
-        <input id="SiezenB" type="button" value="Lieber Dutzen?" onclick="Dutzen()">
-        <input id="DutzenB" type="button" value="Lieber Siezen?" onclick="Siezen()" style="display: none">
     </div>
         <p id="Siezen" style="text-align: center">Falls Sie Fragen haben, Hilfe brauchen oder mich erreichen möchten sind meine Kontaktdaten hier niedergeschrieben:</p>
-        <p id="Dutzen" style="display: none; text-align: center">Falls Du Fragen hast, Hilfe brauchst oder mich einfach erreichen möchtest findest du meine Kontaktdaten hier:</p>
     <p id="kontakteMobile" style="line-height: 1,5;"><span class="h4">Email:</span><br>
         &emsp;persönlich:    <a href="mailto:ChristianG@disroot.org">ChristianG@disroot.org</a><br>
         &emsp;Landesverband: <a href="mailto:infoœsolidhb.de">Info@SolidHB.de</a>
