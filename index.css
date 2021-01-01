@@ -61,14 +61,15 @@ b {
 /* link color */
 a {
     font-family: Infra-Regular;
-    color: #c9ceff;
-    hyphens: auto
+    color: #E2190C;
+    hyphens: auto;
+    text-decoration: none;
 }
 
 h1, .h1 {
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #E2190C;
+    color: #c9ceff;
     font-size: 2.5rem;
     text-decoration: none;
     font-weight: bold;
@@ -77,7 +78,7 @@ h1, .h1 {
 h2, .h2 {
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #E2190C;
+    color: #c9ceff;
     font-size: 2rem;
     text-decoration: none;
     font-weight: bold;
@@ -95,7 +96,7 @@ h3, .h3 {
 h4, .h4 { /* Used for lists */
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #E2190C;
+    color: #ffffff;
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
