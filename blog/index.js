@@ -10,6 +10,5 @@ function datumFontsize(){
         for(i = 0; i < datum.length; i++) {
             datum[i].style.fontSize="2.3em";
         }
-
     }
 }
