@@ -66,7 +66,7 @@ function Speichern(){
                     <a class="active">' + titel + '</a>\n\
                 </div>\n\
                 <div class="spacer">\n\
-                    &nbsp;<br>&nbsp;<span class="mobileonly"><br><br><br><br></span>\n\
+                    &nbsp;<br>&nbsp;\n\
                 </div>\n\
                 <p id="blogEintrag"><br>\n\
                     ' + inhalt + '\n\
