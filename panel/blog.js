@@ -81,7 +81,7 @@ function Speichern(){
 
     blogLink = '<a href='+ link +' style="text-decoration: none;"><div id="blogLink" style="hyphens: auto">\n\
         <h2>' + titel + '</h2>\n\
-        <span id="datum">' + datum + '</span>\n\
+        <span class="datum">' + datum + '</span>\n\
         <p id="inhaltPreview">' + inhaltPreview +'</p>\n\
         </div></a>'
     
