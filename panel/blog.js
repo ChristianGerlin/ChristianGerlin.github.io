@@ -12,6 +12,7 @@ var websiteTitel;
 var datum;
 var blogLink;
 var inhaltPreview;
+var link;
 
 function Speichern(){
     inhalt = simplemde.value().replace(/(?:\r\n|\r|\n)/g, '<br>');
@@ -75,5 +76,14 @@ function Speichern(){
 
     download(content, filename, "text/html");
     
+    inhaltPreview = inhalt.slice(0, 160) + "..."
+    link = '/' + filename + '.html';
+
+    blogLink = '<a href='+ link +' style="text-decoration: none;"><div id="blogLink" style="hyphens: auto">\n\
+        <h2>' + titel + '</h2>\n\
+        <span id="datum">' + datum + '</span>\n\
+        <p id="inhaltPreview">' + inhaltPreview +'</p>\n\
+        </div></a>'
     
+    download(blogLink, filename, "text");
 }
