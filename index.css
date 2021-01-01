@@ -120,13 +120,6 @@ h6, .h6 {
     font-weight: bold;
 }
 
-
-/* changes the backgrounds color */
-body {
-    background-color: #252525;
-}
-
-
 /* fix object to the bottom right side of the screen */
 .fixright{
    position: fixed;
@@ -143,7 +136,9 @@ body {
 
 /* remove Margin from Body */
 body{
-    margin:0;
+    background-color: #252525;
+    margin: 0;
+    padding: 0;
 }
 
 .mobileonly{
