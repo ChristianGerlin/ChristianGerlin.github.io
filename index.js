@@ -11,3 +11,11 @@ function panel(){
 function blogschreiben(){
     window.location.href = "/panel/blog.html";
 }
+
+function indexNoImgMobileSmall() {
+    if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
+        if((window.screen.availWidth)/(window.screen.availHeight) > 0.6){
+            document.getElementById('indeximg').style.display="none";
+        }
+}
+}
