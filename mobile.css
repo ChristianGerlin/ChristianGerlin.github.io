@@ -1,8 +1,11 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #ffffff;
-  overflow: hidden;
-  position: relative;
+    background-color: #c9ceff;
+    overflow: hidden;
+    position: relative;
+
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .topnavfixed{
@@ -13,17 +16,16 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #252525;
-  text-align: center;
-  padding: Calc(2*14px) Calc(2*16px);
-  text-decoration: none;
-  font-size: Calc(2*17px);
+    float: left;
+    color: #252525;
+    text-align: center;
+    padding: Calc(2*14px) Calc(2*16px);
+    text-decoration: none;
+    font-size: Calc(2*17px);
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ffffff;
   color: black;
 }
 
