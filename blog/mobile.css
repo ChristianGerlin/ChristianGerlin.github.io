@@ -1,12 +1,15 @@
-#blogLink {
+.blogLink {
     line-height: 100%;
     position: relative;
+    margin-top: 5%;
     padding-left: 2%;
+    padding-right: 2%;
 }
 
 .datum {
     color: gray;
-    float: right;
+    float: left;
+    width: 100%;
 }
 
 #inhaltPreview {
@@ -15,15 +18,24 @@
     line-height: 1.15
     -webkit-hyphens: auto;
     max-width: 100%;
-    padding-right: 25%;
     line-height: 1.25;
     font-size: 150%;
+    padding-top: 5%
 }
 
 #blogEintrag {
     font-style: normal;
 }
 
-h2 {
-    padding-right: 25%;
+#alleBlogLinks {
+    margin-top: -3%;
 }
+
+p, h2{
+    padding-left: 0;
+}
+
+h2{
+    color: #c9ceff;
+}
+

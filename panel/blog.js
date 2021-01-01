@@ -79,9 +79,9 @@ function Speichern(){
     inhaltPreview = inhalt.slice(0, 160) + "..."
     link = '/' + filename + '.html';
 
-    blogLink = '<a href='+ link +' style="text-decoration: none;"><div id="blogLink" style="hyphens: auto">\n\
+    blogLink = '<a href='+ link +' style="text-decoration: none;"><div class="blogLink" style="hyphens: auto">\n\
         <h2>' + titel + '</h2>\n\
-        <span class="datum">' + datum + '</span>\n\
+        <div class="datum">' + datum + '</div>\n\
         <p id="inhaltPreview">' + inhaltPreview +'</p>\n\
         </div></a>'
     
