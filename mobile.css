@@ -78,6 +78,7 @@ h1, .h1 {
     font-weight: bold;
     line-height: 1.25;
     padding-left: 2%;
+    color: #c9ceff;
 }
 
 h2, .h2 {
@@ -245,4 +246,8 @@ input:hover {
 
 #padding {
     text-align: center;
+}
+
+#bottomTextIndex{
+    color: #ffffff;
 }
