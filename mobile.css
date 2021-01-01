@@ -201,7 +201,7 @@ input:hover {
 #blogEintrag {
     padding-right: 2%;
     padding-left: 2%;
-    font-size: 1.493vw;
+    font-size: 350%;
 }
 
 .blogEintragNav{
@@ -224,7 +224,9 @@ input:hover {
 }
 
 #aboutmetext {
-    font-size: 350%
+    font-size: 350%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 #indextext {
