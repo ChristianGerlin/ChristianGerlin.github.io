@@ -6,7 +6,7 @@ var emailVisible = "0";
 function instagram(){
     if (instagramVisible == "0") {
         document.getElementById("instagram").style["display"] = "inherit";
-        document.getElementById("instagramArrow").style["transform"] = "rotate(180deg)";
+        document.getElementById("instagramArrow").style["transform"] = "rotate(-180deg)";
         instagramVisible = "1";
     } else {
         document.getElementById("instagram").style["display"] = "none";
@@ -18,7 +18,7 @@ function instagram(){
 function facebook(){
     if (facebookVisible == "0") {
         document.getElementById("facebook").style["display"] = "inherit";
-        document.getElementById("facebookArrow").style["transform"] = "rotate(180deg)";
+        document.getElementById("facebookArrow").style["transform"] = "rotate(-180deg)";
         facebookVisible = "1";
     } else {
         document.getElementById("facebook").style["display"] = "none";
@@ -30,7 +30,7 @@ function facebook(){
 function twitter(){
     if (twitterVisible == "0") {
         document.getElementById("twitter").style["display"] = "inherit";
-        document.getElementById("twitterArrow").style["transform"] = "rotate(180deg)";
+        document.getElementById("twitterArrow").style["transform"] = "rotate(-180deg)";
         twitterVisible = "1";
     } else {
         document.getElementById("twitter").style["display"] = "none";
@@ -42,7 +42,7 @@ function twitter(){
 function email(){
     if (emailVisible == "0") {
         document.getElementById("email").style["display"] = "inherit";
-        document.getElementById("emailArrow").style["transform"] = "rotate(180deg)";
+        document.getElementById("emailArrow").style["transform"] = "rotate(-180deg)";
         emailVisible = "1";
     } else {
         document.getElementById("email").style["display"] = "none";

@@ -5,6 +5,7 @@
 #emailArrow, #instagramArrow, #facebookArrow, #twitterArrow{
     content:url('red_arrow.png');
     height: 1em;
+    transition: ease-out 0.4s;
 }
 
 #mh4 {
