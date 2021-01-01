@@ -59,13 +59,14 @@ b {
 a {
     font-family: Infra-Regular;
     color: #c9ceff;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Infra-Bold;
     color: #ffffff;
     padding-left: 1%;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     font-size: 100%;
     line-height: 1.25;
@@ -73,21 +74,21 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .h1 {
     font-size: 3.5rem;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
 }
 
 h2, .h2 {
     font-size: 3.25rem;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
 }
 
 h3, .h3 {
     font-size: 2.75rem;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
 }
@@ -102,14 +103,14 @@ h4, .h4 {
 
 h5, .h5 {
     font-size: 1.25rem;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
 }
 
 h6, .h6 {
     font-size: 1rem;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
 }
