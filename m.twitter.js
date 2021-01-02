@@ -80,3 +80,7 @@ if(current=="/m.twitter.timeline3.html"){
 function touchVisible() {
     document.getElementById("touch").style.display="inherit";
 }
+
+function isActiveMTwitter(){
+    document.getElementById('twitter.html').classList.add('active');
+}

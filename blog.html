@@ -2,6 +2,9 @@
 <html>
 <html lang=de>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="nav.js"></script>
+
     <meta charset="UTF-8">
     <meta name="description" content="Die Homepage von Christian Gerlin bietet Infos über ihn, darunter sind seine politische Arbeit, seine veröffentlichten Artikel, seine Projekte und Kontaktmöglichkeiten um ihn zu erreichen. Auf der Startseite befindet sich eine kurze Übersicht.">
     <meta name="keywords" content="Christian Gerlin, Linksjugend, DIE LINKE, Bremen, Landessprecher">
@@ -10,18 +13,9 @@
     <script src="/index.js"></script>
     <script src="/blog/index.js"></script>
 </head>
-<body onload="javascript:datumFontsize()">
-    <div class="topnav" id="topnavBlog">
-        <a href="index.html">Startseite</a>
-        <a href="PR.html">Öffentlichkeitsarbeit</a>
-        <a href="projects.html">Projekte</a>
-        <a class="active" href="blog.html">Blog</a>
-        <a href="twitter.html">Twitter Feeds</a>
-        <a href="linksjugend.html">linksjugend</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="aboutme.html">Über Mich</a>
-        <input id="desktoponly" type="button" onclick="blogschreiben()" style="background-color: #c9ceff;">
-    </div>
+<body onload="javascript:datumFontsize();implement();">
+    <div id="nav-placeholder"></div>
+
     <div id="alleBlogLinks">
     <a href=/RechtsPolizei.html style="text-decoration: none;"><div class="blogLink" style="hyphens: auto">
         <h2>Rechts dr&uumlckt die Polizei das Auge zu</h2>

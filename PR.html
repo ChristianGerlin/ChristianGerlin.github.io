@@ -2,21 +2,16 @@
 <html>
 <html lang=de>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="nav.js"></script>
+
     <title>Christian G. - Öffentlichkeitsarbeit</title>
     <!-- Load platform specific styles -->
     <script src="index.js"></script>
 </head>
-<body>
-    <div class="topnav">
-        <a href="index.html">Startseite</a>
-        <a class="active" href="PR.html">Öffentlichkeitsarbeit</a>
-        <a href="projects.html">Projekte</a>
-        <a href="blog.html">Blog</a>
-        <a href="twitter.html">Twitter Feeds</a>
-        <a href="linksjugend.html">linksjugend</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="aboutme.html">Über Mich</a>
-    </div>
+<body onload="javascript:implement();">
+    <div id="nav-placeholder"></div>
+
     <p id="liste">
         <b class="h2">eigene Artikel:</b><br>
         <span class="desktoponly">&emsp;</span><span class="h4">in der Presse veröffentlicht:</span><br>

@@ -1,9 +1,10 @@
-function isActive(){
-    var current = location.pathname.split("/")[1];
-    window.frames["nav"].document.getElementById(current).classList.add('active');
+function implement(){
+    $(function(){
+        $("#nav-placeholder").load("/nav.html");
+    });
 }
 
-window.onload = function() {
-  isActive();
-};
-
+function isActive(){
+    var current = location.pathname.split("/")[1];
+    document.getElementById(current).classList.add('active');
+}

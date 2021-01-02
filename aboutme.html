@@ -2,6 +2,9 @@
 <html>
 <html lang=de>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="nav.js"></script>
+
     <meta charset="utf-8">
     <meta name="author" content="Christian Gerlin">
     <meta name="description" content="Hier finden sie einen ausführlichen Text über Christian Gerlin.">
@@ -15,17 +18,9 @@
     <script src="index.js"></script>
     <style>b{color: #ffffff}u{color: #ffffff}</style>
 </head>
-<body>
-    <div class="topnav">
-        <a href="index.html">Startseite</a>
-        <a href="PR.html">Öffentlichkeitsarbeit</a>
-        <a href="projects.html">Projekte</a>
-        <a href="blog.html">Blog</a>
-        <a href="twitter.html">Twitter Feeds</a>
-        <a href="linksjugend.html">linksjugend</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a class="active" href="aboutme.html">Über Mich</a>
-    </div>
+<body onload="javascript:implement();">
+    <div id="nav-placeholder"></div>
+
     <a href=kontakt.html><img src=christian.png class="fixright desktoponly" style="max-width: 28%"></a>
     <h1 style="float:left;">Über Mich</h1>
     <p style="clear: right; float: left; margin: 0" class="aboutmetext" id="aboutmetext">Ich bin Christian und wohne im Speckgürtel Bremens und spiele gerne Gitarre und Tennis. Dort bin ich seit kurzem Landessprecher für Öffentlichkeitsarbeit und Finanzen bei der <a href=https://de.wikipedia.org/wiki/Linksjugend_Solid>linksjugend</a>, und auch bei <a href=https://de.wikipedia.org/wiki/Die_Linke>DIE LINKE</a> aktiv. Auch bin ich 2002 geboren und mache dementsprechend noch mein Abitur, dann möchte ich studieren. Entweder ein Kombistudienfach aus Politik, Soziologie, öffentliches Recht, und VWL in Passau oder Jura in Bremen. So genau weiß ich das noch nicht aber ich werde wohl erst mal in Bremen bleiben und dann weiterschauen.<br>

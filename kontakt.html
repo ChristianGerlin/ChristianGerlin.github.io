@@ -2,6 +2,9 @@
 <html>
 <html lang=de>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="nav.js"></script>
+
     <meta charset="utf-8">
     <meta name="description" content="Auf dieser Seite finden sie Christian Gerlins Kontaktdaten und Social-Media-Kanäle">
     <meta name="keywords" content="Christian Gerlin, Kontaktdaten, E-Mail, erreichen">
@@ -11,17 +14,9 @@
     <link href="/kontakt.css"  rel="stylesheet">
     <style>b{color: #ffffff}</style>
 </head>
-<body>
-    <div class="topnav">
-        <a href="index.html">Startseite</a>
-        <a href="PR.html">Öffentlichkeitsarbeit</a>
-        <a href="projects.html">Projekte</a>
-        <a href="blog.html">Blog</a>
-        <a href="twitter.html">Twitter Feeds</a>
-        <a href="linksjugend.html">linksjugend</a>
-        <a class="active" href="kontakt.html">Kontakt</a>
-        <a href="aboutme.html">Über Mich</a>
-    </div>
+<body onload="javascript:implement();">
+        <div id="nav-placeholder"></div>
+
         <p id="Siezen" style="text-align: center">Falls Sie Fragen haben, Hilfe brauchen oder mich erreichen möchten sind meine Kontaktdaten hier niedergeschrieben:</p>
     <p id="kontakteMobile" style="line-height: 1,5;"><span class="h4">Email:</span><br>
         &emsp;persönlich:    <a href="mailto:ChristianG@disroot.org">ChristianG@disroot.org</a><br>

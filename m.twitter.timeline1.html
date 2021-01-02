@@ -2,6 +2,9 @@
 <html>
 <html lang=de>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="nav.js"></script>
+
     <title>Christian G. - Twitter Feeds</title>
     <link href="mobile.css"  rel="stylesheet">
     <link href="m.twitter.css"  rel="stylesheet">
@@ -10,19 +13,10 @@
     <link rel=prefetch src="m.twitter.timeline2.html">
     <link rel=prefetch src="m.twitter.timeline3.html">
 </head>
-<body onload="touchVisible()">
-    <div class="topnav topnavfixed">
-        <a href="index.html">Startseite</a>
-        <a href="PR.html">Öffentlichkeitsarbeit</a>
-        <a href="projects.html">Projekte</a>
-        <a href="blog.html">Blog</a>
-        <a class="active" href="m.twitter.timeline2.html">Twitter Feeds</a>
-        <a href="linksjugend.html">linksjugend</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="aboutme.html">Über Mich</a>
-    </div>
-    <br><br><br><br><br><br>
-    <div class="feedsTopPadding">
+<body onload="touchVisible();implement();">
+    <div id="nav-placeholder"></div>
+
+    <div>
         <div id="timeline1"><a class="twitter-timeline" data-width="100%" data-height="125vw" data-dnt="true" data-theme="dark" href="https://twitter.com/GerlinChristian?ref_src=twsrc%5Etfw">Tweets by GerlinChristian</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
     </div>
 

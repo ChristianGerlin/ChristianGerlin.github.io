@@ -2,6 +2,9 @@
 <html>
 <html lang=de>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="nav.js"></script>
+
     <meta charset="UTF-8">
     <meta name="description" content="Die Homepage von Christian Gerlin bietet Infos über ihn, darunter sind seine politische Arbeit, seine veröffentlichten Artikel, seine Projekte und Kontaktmöglichkeiten um ihn zu erreichen. Auf der Startseite befindet sich eine kurze Übersicht.">
     <meta name="keywords" content="Christian Gerlin, Linksjugend, DIE LINKE, Bremen, Landessprecher">
@@ -9,18 +12,8 @@
     <title>Christian Gerlin</title>
     <script src="index.js"></script>
 </head>
-<body onload="javasript:indexNoImgMobileSmall()">
-    <div class="topnav">
-        <a class="active" href="index.html">Startseite</a>
-        <a href="PR.html">Öffentlichkeitsarbeit</a>
-        <a href="projects.html">Projekte</a>
-        <a href="blog.html">Blog</a>
-        <a href="twitter.html">Twitter Feeds</a>
-        <a href="linksjugend.html">linksjugend</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="aboutme.html">Über Mich</a>
-        <input id="desktoponly" type="button" onclick="panel()" style="background-color: #c9ceff;">
-    </div>
+<body onload="javasript:indexNoImgMobileSmall();implement();">
+    <div id="nav-placeholder"></div>
     <a href=aboutme.html><img src=christian.png class="fixright" alt="Christian Gerlin Portrait" id="indeximg"></a>
 
     <p style="clear: right; float: left; position: absolute;" id="padding">
