@@ -147,10 +147,6 @@ body{
     display: none;
 }
 
-.feedsTopPadding{
-    padding-top: 3%;
-}
-
 input{
     float: right;
     color: #ffffff;
