@@ -17,5 +17,5 @@ function indexNoImgMobileSmall() {
         if((window.screen.availWidth)/(window.screen.availHeight) > 0.6){
             document.getElementById('indeximg').style.display="none";
         }
-}
+    }
 }

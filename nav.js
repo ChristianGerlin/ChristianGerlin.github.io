@@ -1,7 +1,5 @@
-function implement(){
-    $(function(){
-        $("#nav-placeholder").load("/nav.html");
-    });
+window.onload = function() {
+    $("#nav-placeholder").load("/nav.html");
 }
 
 function isActive(){
