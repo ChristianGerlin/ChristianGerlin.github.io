@@ -214,3 +214,13 @@ input:hover {
     display: none;
   }
 }
+
+.linksjugendLogo{
+    height: auto;
+    width: 35vw;
+    margin-top: auto;
+    margin-bottom: 5vh;
+    display: inherit;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
