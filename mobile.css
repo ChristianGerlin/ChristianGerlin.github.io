@@ -253,3 +253,13 @@ input:hover {
 #bottomTextIndex{
     color: #ffffff;
 }
+
+.linksjugendLogo{
+    height: auto;
+    width: 50vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: inherit;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
