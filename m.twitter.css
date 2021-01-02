@@ -1,14 +1,21 @@
+body {
+    overflow: hidden;
+}
+
 .botnav {
-  background-color: #252525;
-  overflow: hidden;
-  z-index: 10000;
-  align-content: center;
+    background-color: #252525;
+    align-content: center;
 }
 
 .botnavfixed{
     position: fixed;
+    overflow: hidden;
     width: 100%;
-    bottom: 0;
+    bottom: 5vh;
+    height: 11vh;
+    background-color: #252525;
+    z-index: 20;
+    padding-bottom: 1%;
 }
 
 /* Style the links inside the navigation bar */
@@ -16,8 +23,6 @@
   float: left;
   text-align: center;
   color: #E2190C;
-  text-align: center;
-  padding: 4% 6%;
   text-decoration: none;
   font-size: Calc(3*17px);
 }
