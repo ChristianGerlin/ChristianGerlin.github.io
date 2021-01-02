@@ -7,7 +7,6 @@
 
 .botnavfixed{
     position: fixed;
-    overflow: hidden;
     width: 100%;
     bottom: 0;
 }
@@ -31,4 +30,8 @@
 
 #touch{
     display: none;
+}
+
+#timeline1, #timeline2, #timeline3 {
+    height: 100vh;
 }
