@@ -1,6 +1,4 @@
-window.onload = function() {
-    $("#nav-placeholder").load("/nav.html");
-}
+$("#nav-placeholder").load("/nav.html");
 
 function isActive(){
     var current = location.pathname.split("/")[1];
