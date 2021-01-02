@@ -36,7 +36,3 @@ body {
 #touch{
     display: none;
 }
-
-#timeline1, #timeline2, #timeline3 {
-    height: 100vh;
-}
