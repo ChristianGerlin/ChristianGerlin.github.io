@@ -4,8 +4,9 @@
 
 #emailArrow, #instagramArrow, #facebookArrow, #twitterArrow, #youtubeArrow, #spotifyArrow{
     content:url('/src/img/red_arrow.png');
-    height: 1em;
+    height: 0.85em;
     transition: ease-out 0.4s;
+    margin-left: 1vw;
 }
 
 #mh4 {
