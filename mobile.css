@@ -154,7 +154,7 @@ body{
     display:none;
 }
 
-.aboutmetext .indextext{
+.indextext{
     font-size: 275%;
 }
 
@@ -235,7 +235,7 @@ input:hover {
 }
 
 #aboutmetext {
-    font-size: 350%;
+    font-size: 3.5vh;
     padding-left: 2%;
     padding-right: 2%;
 }

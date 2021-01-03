@@ -206,7 +206,8 @@ input:hover {
 }
 
 #aboutmetext {
-    padding-right: 33%
+    padding-right: 33%;
+    font-size: 4vh;
 }
 
 #bottomTextIndex{
