@@ -30,7 +30,5 @@ function indexNoImgMobileSmall() {
 
 
 function isIndex(){
-    if(window.location.href == "https://christiangerlin.de/"){
-        document.getElementById('index.html').classList.add('active');
-    }
+    document.getElementById('index.html').classList.add('active');
 }
