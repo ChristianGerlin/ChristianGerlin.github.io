@@ -14,7 +14,8 @@
 }
 
 .h4{
-    color: #c9ceff;
+    color: #ffffff;
+    font-size: 3.5vh;
 }
 
 p {
@@ -26,5 +27,5 @@ p {
 }
 
 #elemente{
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
