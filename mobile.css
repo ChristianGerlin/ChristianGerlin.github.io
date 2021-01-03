@@ -229,8 +229,13 @@ input:hover {
     left: -5000px;
 }
 
+/* for backwards compatibility*/
 #indeximg {
-    max-width: 50%
+    max-width: 60%
+}
+
+#indeximgImg {
+    max-height: 20vh;
 }
 
 #aboutmetext {
