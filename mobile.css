@@ -126,7 +126,8 @@ h6, .h6 {
 
 /* changes the backgrounds color */
 body {
-  background-color: #252525;
+    background-color: #252525;
+    font-size: 200%;
 }
 
 
@@ -262,4 +263,9 @@ input:hover {
     display: inherit;
     margin-left: 25vw;
     margin-right: 25vw;
+}
+
+#oneDotMobile {
+    color: #ffffff;
+    font-size: 120%;
 }

@@ -141,6 +141,7 @@ body{
     background-color: #252525;
     margin: 0;
     padding: 0;
+    font-size: 130%;
 }
 
 .mobileonly{
@@ -223,4 +224,8 @@ input:hover {
     display: inherit;
     margin-left: 5vw;
     margin-right: 5vw;
+}
+
+#oneDotMobile {
+    display: none;
 }
