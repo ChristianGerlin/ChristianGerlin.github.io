@@ -12,30 +12,45 @@
     <meta name="author" content="Christian Gerlin">
     <title>Christian G. - Kontakt</title>
     <script src="index.js"></script>
-    <link href="/kontakt.css"  rel="stylesheet">
+    <script src="m.kontakt.js"></script>
+    <link href="/m.kontakt.css"  rel="stylesheet">
     <style>b{color: #ffffff}</style>
 </head>
-<body>
+<body style="font-size: 100%;">
         <div id="nav-placeholder"></div>
 
-        <p id="Siezen" style="text-align: center">Falls Sie Fragen haben, Hilfe brauchen oder mich erreichen möchten sind meine Kontaktdaten hier niedergeschrieben:</p>
-    <p id="kontakteMobile" style="line-height: 1,5;"><span class="h4">Email:</span><br>
-        &emsp;persönlich:    <a href="mailto:ChristianG@disroot.org">ChristianG@disroot.org</a><br>
-        &emsp;Landesverband: <a href="mailto:infoœsolidhb.de">Info@SolidHB.de</a>
-        <br>
-        <br><span class="h4">Instagram:</span><br>
-        &emsp;persönlich: <a href="https://www.instagram.com/christiangerlin/" target="_blank">@ChristianGerlin</a><br>
-        &emsp;Landesverband: <a href="https://www.instagram.com/linksjugendsolid_bremen/" target="_blank">@LiJu_Bremen</a><br>
-        &emsp;Basisgruppe: <a href="https://www.instagram.com/linksjugend_bremen_viertel/" target="_blank">@LiJu_Bremen_Viertel</a>
-        <br>
-        <br><span class="h4">Facebook:</span><br>
-        &emsp;persönlich: <a href="https://www.facebook.com/christian.gerlin.7/" target="_blank">Christian Gerlin</a><br>
-        &emsp;Landesverband: <a href="https://www.facebook.com/linksjugendsolid.bremen" target="_blank">linksjugend Bremen</a>
-        <br>
-        <br><span class="h4">Twitter:</span><br>
-        &emsp;persönlich: <a href="https://twitter.com/GerlinChristian" target="_blank">Christian Gerlin</a><br>
-        &emsp;Landesverband: <a href="https://twitter.com/ljsolid_bremen" target="_blank">linksjugend Bremen</a>
-    </p><span class="mobileonly"><br><br><br><br><br><br><br><br></span>
-    <a href=aboutme.html><img src=christian.png class="fixright" style="max-width: 28%"></a>
+        <p id="Siezen" style="text-align: center;" id="einleitung">Falls Sie Fragen haben, Hilfe brauchen oder mich erreichen wollen sind meine Kontaktdaten hier niedergeschrieben:</p>
+    <p id="elemente" style="text-align: center;">
+        <span class="h4" onclick="email()" id="mh4">Email:</span><span id="emailArrow"></span><br>
+        <span id="email">
+            persönlich:    <span class="mobileonly"><br></span><a href="mailto:ChristianG@disroot.org">ChristianG@disroot.org</a><br>
+            Landesverband: <span class="mobileonly"><br></span><a href="mailto:infoœsolidhb.de">Info@SolidHB.de</a>
+        </span>
+        <br><span class="h4" onclick="instagram()" id="mh4">Instagram:</span><span id="instagramArrow"></span><br>
+        <span id="instagram">
+            persönlich: <span class="mobileonly"><br></span><a href="https://www.instagram.com/christiangerlin/" target="_blank">@ChristianGerlin</a><br>
+            Landesverband: <span class="mobileonly"><br></span><a href="https://www.instagram.com/linksjugendsolid_bremen/" target="_blank">@LiJu_Bremen</a><br>
+            Basisgruppe: <span class="mobileonly"><br></span><a href="https://www.instagram.com/linksjugend_bremen_viertel/" target="_blank">@LiJu_Bremen_Viertel</a>
+        </span>
+        <br><span class="h4" onclick="facebook()" id="mh4">Facebook:</span><span id="facebookArrow"></span><br>
+        <span id="facebook">
+            persönlich: <span class="mobileonly"><br></span><a href="https://www.facebook.com/christian.gerlin.7/" target="_blank">Christian Gerlin</a><br>
+            Landesverband: <span class="mobileonly"><br></span><a href="https://www.facebook.com/linksjugendsolid.bremen" target="_blank">linksjugend Bremen</a>
+        </span>
+        <br><span class="h4" onclick="twitter()" id="mh4">Twitter:</span><span id="twitterArrow"></span><br>
+            <span id="twitter">
+            persönlich: <span class="mobileonly"><br></span><a href="https://twitter.com/GerlinChristian" target="_blank">Christian Gerlin</a><br>
+            Landesverband: <span class="mobileonly"><br></span><a href="https://twitter.com/ljsolid_bremen" target="_blank">linksjugend Bremen</a>
+        </span>
+        <br><span class="h4" onclick="youtube()" id="mh4">Youtube:</span><span id="youtubeArrow"></span><br>
+            <span id="youtube">
+            persönlich: <span class="mobileonly"><br></span><a href="https://www.youtube.com/channel/UCMru06YvLoe2IzcHvSqUWqQ" target="_blank">Christian Gerlin</a><br>
+            Landesverband: <span class="mobileonly"><br></span><a href="https://www.youtube.com/channel/UCTV_rBtd6X8rXXdBzDvB2fg" target="_blank">linksjugend Bremen</a>
+        </span>
+        <br><span class="h4" onclick="spotify()" id="mh4">Spotify:</span><span id="spotifyArrow"></span><br>
+            <span id="spotify">
+            persönlich: <span class="mobileonly"><br></span><a href="https://open.spotify.com/artist/3r9qaaK3jV4TQBC9mUzwjs" target="_blank">Christian Gerlin</a><br>
+        </span>
+    </p>
 </body>
 </html>

@@ -1,8 +1,11 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #c9ceff;
-  overflow: hidden;
-  position: relative;
+    background-color: #c9ceff;
+    overflow: hidden;
+    position: relative;
+
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
 }
 
 .topnavfixed{
@@ -228,4 +231,8 @@ input:hover {
 
 #oneDotMobile {
     display: none;
+}
+
+#elemente{
+    font-size: 200%
 }

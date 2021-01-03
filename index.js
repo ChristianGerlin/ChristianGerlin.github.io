@@ -1,15 +1,7 @@
 if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
     document.write('<link href="/mobile.css"  rel="stylesheet">');
-
-    if(window.location.pathname == "/kontakt.html"){
-        window.location.href = "/m.kontakt.html";
-    }
 } else {
     document.write('<link href="/index.css"  rel="stylesheet">');
-
-    if(window.location.pathname == "/m.kontakt.html"){
-        window.location.href = "/kontakt.html";
-    }
 }
 
 function panel(){

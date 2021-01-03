@@ -2,6 +2,8 @@ var instagramVisible = "0";
 var facebookVisible = "0";
 var twitterVisible = "0";
 var emailVisible = "0";
+var youtubeVisible = "0";
+var spotifyVisible = "0";
 
 function instagram(){
     if (instagramVisible == "0") {
@@ -48,5 +50,29 @@ function email(){
         document.getElementById("email").style["display"] = "none";
         document.getElementById("emailArrow").style["transform"] = "rotate(0deg)";
         emailVisible = "0";
+    }
+}
+
+function youtube(){
+    if (youtubeVisible == "0") {
+        document.getElementById("youtube").style["display"] = "inherit";
+        document.getElementById("youtubeArrow").style["transform"] = "rotate(-180deg)";
+        youtubeVisible = "1";
+    } else {
+        document.getElementById("youtube").style["display"] = "none";
+        document.getElementById("youtubeArrow").style["transform"] = "rotate(0deg)";
+        youtubeVisible = "0";
+    }
+}
+
+function spotify(){
+    if (spotifyVisible == "0") {
+        document.getElementById("spotify").style["display"] = "inherit";
+        document.getElementById("spotifyArrow").style["transform"] = "rotate(-180deg)";
+        spotifyVisible = "1";
+    } else {
+        document.getElementById("spotify").style["display"] = "none";
+        document.getElementById("spotifyArrow").style["transform"] = "rotate(0deg)";
+        spotifyVisible = "0";
     }
 }

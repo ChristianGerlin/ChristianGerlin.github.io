@@ -220,10 +220,6 @@ input:hover {
     width: 100%;
 }
 
-#kontakteMobile{
-    font-size: 200%;
-}
-
 #offscreenMobile{
     position: absolute;
     left: -5000px;
@@ -273,4 +269,12 @@ input:hover {
 #oneDotMobile {
     color: #ffffff;
     font-size: 120%;
+}
+
+#einleitung {
+    font-size: 300%;
+}
+
+#elemente{
+    font-size: 400%;
 }
