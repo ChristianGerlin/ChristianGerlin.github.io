@@ -1,0 +1,12 @@
+#Email
+    .persönlich=mailto:ChristianG@disroot.org
+    .mailto=Info@SolidHB.de
+    
+#Instagram
+    .persönlich=https://www.instagram.com/christiangerlin/
+    .Basisgruppe=https://www.instagram.com/linksjugend_bremen_viertel/
+    .Landesverband=https://www.instagram.com/linksjugendsolid_bremen/
+#Facebook
+#Twitter
+#Youtube
+#Spotify
