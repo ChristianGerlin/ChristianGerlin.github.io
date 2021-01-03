@@ -1,0 +1,27 @@
+#email, #instagram, #facebook, #twitter, #youtube, #spotify {
+    display: none;
+}
+
+#emailArrow, #instagramArrow, #facebookArrow, #twitterArrow, #youtubeArrow, #spotifyArrow{
+    content:url('/src/img/red_arrow.png');
+    height: 1em;
+    transition: ease-out 0.4s;
+}
+
+#mh4 {
+    font-size: 125%;
+    color: #c9ceff;
+}
+
+.h4{
+    color: #ffffff;
+    font-size: 3.5vh;
+}
+
+#Siezen {
+    color: #E2190C;
+}
+
+#elemente{
+    font-size: 3.5vh;
+}
