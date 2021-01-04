@@ -8,7 +8,7 @@ function datumFontsize(){
     if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
         var datum = document.getElementsByClassName('datum');
         for(i = 0; i < datum.length; i++) {
-            datum[i].style.fontSize="2.3em";
+            datum[i].style.fontSize="2.5vh";
         }
     }
 }
