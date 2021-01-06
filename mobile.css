@@ -4,6 +4,9 @@
     overflow: hidden;
     position: relative;
 
+    padding-left: 5vw;
+    padding-right: 5vw;
+
     text-transform: uppercase;
     font-weight: 600;
 }
