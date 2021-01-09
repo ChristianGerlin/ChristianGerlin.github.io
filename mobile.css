@@ -230,11 +230,11 @@ input:hover {
 
 /* for backwards compatibility*/
 #indeximg {
-    max-width: 60%
+    display: none;
 }
 
 #indeximgImg {
-    max-height: 20vh;
+    display: none;
 }
 
 #aboutmetext {
