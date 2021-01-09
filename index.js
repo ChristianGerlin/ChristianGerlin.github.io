@@ -12,14 +12,6 @@ function blogschreiben(){
     window.location.href = "/panel/blog.html";
 }
 
-function indexNoImgMobileSmall() {
-    if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
-        if((window.screen.availWidth)/(window.screen.availHeight) > 0.435){
-            document.getElementById('indeximg').style.display="none";
-        }
-    }
-}
-
 
 function isIndex(){
     document.getElementById('index.html').classList.add('active');
