@@ -14,7 +14,7 @@ function blogschreiben(){
 
 function indexNoImgMobileSmall() {
     if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
-        if((window.screen.availWidth)/(window.screen.availHeight) > 0.5){
+        if((window.screen.availWidth)/(window.screen.availHeight) > 0.435){
             document.getElementById('indeximg').style.display="none";
         }
     }
