@@ -50,7 +50,7 @@
 
 p {
     font-family: Infra-Regular;
-    color: #E2190C;
+    color: #00FFC2;
     font-size: 250%;
     padding-left: 1%;
     hyphens: auto
@@ -63,7 +63,7 @@ b {
 /* link color */
 a {
     font-family: Infra-Regular;
-    color: #E2190C;
+    color: #00FFC2;
     text-decoration: none;
 }
 
