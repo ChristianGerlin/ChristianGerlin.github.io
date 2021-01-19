@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #c9ceff;
+    background-color: #252525;
     overflow: hidden;
     position: relative;
 
@@ -17,7 +17,7 @@
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #252525;
+    color: #00FFC2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +28,6 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    color: black;
     font-family: Infra-Bold;
 }
 
@@ -51,7 +50,7 @@
 
 p {
     font-family: Infra-Regular;
-    color: #00FFC2;
+    color: #252525;
     font-size: 24px;
     padding-left: 1%;
     hyphens: auto
@@ -65,7 +64,7 @@ b {
 /* link color */
 a {
     font-family: Infra-Regular;
-    color: #00FFC2;
+    color: #252525;
     hyphens: auto;
     text-decoration: none;
 }
@@ -73,7 +72,7 @@ a {
 h1, .h1 {
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #c9ceff;
+    color: #252525;
     font-size: 2.5rem;
     text-decoration: none;
     font-weight: bold;
@@ -82,7 +81,7 @@ h1, .h1 {
 h2, .h2 {
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #c9ceff;
+    color: #252525;
     font-size: 2rem;
     text-decoration: none;
     font-weight: bold;
@@ -91,7 +90,7 @@ h2, .h2 {
 h3, .h3 {
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #00FFC2;
+    color: #252525;
     font-size: 1.75rem;
     text-decoration: none;
     font-weight: bold;
@@ -100,7 +99,7 @@ h3, .h3 {
 h4, .h4 { /* Used for lists */
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #ffffff;
+    color: #252525;
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
@@ -110,7 +109,7 @@ h4, .h4 { /* Used for lists */
 h5, .h5 {
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #00FFC2;
+    color: #252525;
     font-size: 1.25rem;
     text-decoration: none;
     font-weight: bold;
@@ -119,7 +118,7 @@ h5, .h5 {
 h6, .h6 {
     font-family: Infra-Bold;
     padding-left: 1%;
-    color: #00FFC2;
+    color: #252525;
     font-size: 1rem;
     text-decoration: none;
     font-weight: bold;
@@ -141,7 +140,7 @@ h6, .h6 {
 
 /* remove Margin from Body */
 body{
-    background-color: #252525;
+    background-color: #00FFC2;
     margin: 0;
     padding: 0;
     font-size: 130%;
@@ -153,7 +152,7 @@ body{
 
 input{
     float: right;
-    color: #ffffff;
+    color: #252525;
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
@@ -165,7 +164,7 @@ input{
 }
 
 input:hover {
-  background-color: #ffffff;
+  background-color: #252525;
   color: black;
 }
 
@@ -211,7 +210,7 @@ input:hover {
 }
 
 #bottomTextIndex{
-    color: #ffffff;
+    color: #252525;
 }
 
 @media screen and (max-aspect-ratio: 16/10) {

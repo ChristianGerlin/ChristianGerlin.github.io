@@ -14,7 +14,7 @@
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #ffffff;
+  color: #252525;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,14 +23,14 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ffffff;
+    background-color: #252525;
     color: black;
 
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #ffffff;
+    background-color: #252525;
     color: #252525;
     font-family: Infra-Bold;
 }
@@ -47,7 +47,7 @@
 
 p {
     font-family: Infra-Regular;
-    color: #00FFC2;
+    color: #252525;
     font-size: 24px;
     padding-left: 1%;
     hyphens: auto
@@ -61,19 +61,19 @@ b {
 /* link color */
 a {
     font-family: Infra-Regular;
-    color: #c9ceff;
+    color: #252525;
     hyphens: auto
 }
 
 h1 {
     font-family: Infra-Bold;
-    color: #00FFC2;
+    color: #252525;
     padding-left: 1%;
 }
 
 /* changes the backgrounds color */
 body {
-  background-color: #ffffff;
+  background-color: #252525;
 }
 
 
@@ -111,14 +111,14 @@ input{
     padding: 12px 14px;
     text-decoration: none;
     font-size: 17px;
-    background-color: #ffffff;
+    background-color: #252525;
     overflow: hidden;
     outline: none;
     border: none;
 }
 
 input:hover {
-  background-color: #ffffff;
+  background-color: #252525;
   color: black;
 }
 

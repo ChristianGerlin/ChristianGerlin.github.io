@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #c9ceff;
+    background-color: #252525;
     overflow: hidden;
     position: relative;
 
@@ -20,16 +20,11 @@
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #252525;
+    color: #00FFC2;
     text-align: center;
     padding: Calc(2*14px) Calc(2*16px);
     text-decoration: none;
     font-size: Calc(2*17px);
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    color: black;
 }
 
 /* Add a color to the active/current link */
@@ -50,7 +45,7 @@
 
 p {
     font-family: Infra-Regular;
-    color: #00FFC2;
+    color: #252525;
     font-size: 250%;
     padding-left: 1%;
     hyphens: auto
@@ -63,13 +58,13 @@ b {
 /* link color */
 a {
     font-family: Infra-Regular;
-    color: #00FFC2;
+    color: #252525;
     text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Infra-Bold;
-    color: #c9ceff;
+    color: #252525;
     padding-left: 1%;
     text-decoration: none;
     font-weight: bold;
@@ -83,7 +78,7 @@ h1, .h1 {
     font-weight: bold;
     line-height: 1.25;
     padding-left: 2%;
-    color: #c9ceff;
+    color: #252525;
 }
 
 h2, .h2 {
@@ -92,7 +87,7 @@ h2, .h2 {
     font-weight: bold;
     line-height: 1.25;
 
-    color: #c9ceff;
+    color: #252525;
 }
 
 h3, .h3 {
@@ -100,7 +95,7 @@ h3, .h3 {
     text-decoration: none;
     font-weight: bold;
     line-height: 1.25;
-    color: #ffffff;
+    color: #252525;
 }
 
 h4, .h4 {
@@ -109,7 +104,7 @@ h4, .h4 {
     padding-left: 2%;
     line-height: 1.25;
 
-    color: #ffffff;
+    color: #252525;
 }
 
 h5, .h5 {
@@ -129,7 +124,7 @@ h6, .h6 {
 
 /* changes the backgrounds color */
 body {
-    background-color: #252525;
+    background-color: #00FFC2;
     font-size: 200%;
 }
 
@@ -185,7 +180,7 @@ input{
 }
 
 input:hover {
-  background-color: #ffffff;
+  background-color: #252525;
   color: black;
 }
 
@@ -256,7 +251,7 @@ input:hover {
 }
 
 #bottomTextIndex{
-    color: #ffffff;
+    color: #252525;
 }
 
 .linksjugendLogo{
@@ -270,7 +265,7 @@ input:hover {
 }
 
 #oneDotMobile {
-    color: #ffffff;
+    color: #252525;
     font-size: 120%;
 }
 

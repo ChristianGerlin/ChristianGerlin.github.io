@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #ffffff;
+  background-color: #252525;
   overflow: hidden;
   position: relative;
 }
@@ -23,7 +23,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #00ffc2;
+    background-color: #252525;
     color: black;
 
 }
@@ -47,7 +47,7 @@
 
 p {
     font-family: Infra-Regular;
-    color: #00FFC2;
+    color: #252525;
     font-size: 24px;
     padding-left: 1%;
     hyphens: auto
@@ -61,13 +61,13 @@ b {
 /* link color */
 a {
     font-family: Infra-Regular;
-    color: #c9ceff;
+    color: #252525;
     hyphens: auto
 }
 
 h1 {
     font-family: Infra-Bold;
-    color: #00FFC2;
+    color: #252525;
     padding-left: 1%;
 }
 
@@ -118,7 +118,7 @@ input{
 }
 
 input:hover {
-  background-color: #00ffc2;
+  background-color: #252525;
   color: black;
 }
 
