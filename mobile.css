@@ -9,6 +9,8 @@
 
     text-transform: uppercase;
     font-weight: 600;
+
+    width: 100%;
 }
 
 .topnavfixed{
@@ -47,7 +49,8 @@ p {
     font-family: Infra-Regular;
     color: #252525;
     font-size: 250%;
-    padding-left: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
     hyphens: auto
 }
 
@@ -271,4 +274,18 @@ input:hover {
 
 #einleitung {
     font-size: 300%;
+}
+
+#indexHeadline{
+    font-size: 5vh;
+    line-height: 8vh;
+}
+
+indexText{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.indexTopMargin{
+    top:22vh;
 }

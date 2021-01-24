@@ -52,7 +52,8 @@ p {
     font-family: Infra-Regular;
     color: #252525;
     font-size: 24px;
-    padding-left: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     hyphens: auto
 }
 
@@ -209,10 +210,6 @@ input:hover {
     font-size: 4vh;
 }
 
-#bottomTextIndex{
-    color: #252525;
-}
-
 @media screen and (max-aspect-ratio: 16/10) {
   img{
     display: none;
@@ -235,4 +232,17 @@ input:hover {
 
 #elemente{
     font-size: 200%
+}
+
+#indexHeadline{
+    font-size: 200%;
+}
+
+#indexText{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.indexTopMargin{
+    top:22vh;
 }
