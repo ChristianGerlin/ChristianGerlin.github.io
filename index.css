@@ -267,3 +267,16 @@ input:hover {
     border: 10px solid #252525;
 }
 /* /Wikikram*/
+
+/* hide prImg on Desktop only*/
+#prImg{
+    margin-top: 2vh;
+    max-width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 20px solid #252525;
+
+    filter: grayscale(100%);
+}

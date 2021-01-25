@@ -321,3 +321,10 @@ indexText{
     text-align: center
 }
 /* /Wikikram*/
+
+#prImg{
+    height: auto;
+    width: 100vw;
+
+    filter: grayscale(100%);
+}
