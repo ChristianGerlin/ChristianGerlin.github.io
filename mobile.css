@@ -344,3 +344,10 @@ indexText{
 
     filter: grayscale(100%);
 }
+
+#scrollable{
+    filter: invert(11%) sepia(2%) saturate(5%) hue-rotate(314deg) brightness(93%) contrast(89%);
+    height: 4vh;
+    bottom: 2vh;
+    left: 2vw;
+}
