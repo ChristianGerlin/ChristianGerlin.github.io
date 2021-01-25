@@ -210,12 +210,6 @@ input:hover {
     font-size: 4vh;
 }
 
-@media screen and (max-aspect-ratio: 16/10) {
-  img{
-    display: none;
-  }
-}
-
 .linksjugendLogo{
     height: auto;
     width: 35vw;
@@ -246,3 +240,30 @@ input:hover {
 .indexTopMargin{
     top:22vh;
 }
+/* Wikikram*/
+#wikiVerzeichnis{
+    font-size: 4vh;
+    margin-left: 5vw;
+    margin-right: 1vw;
+}
+
+#wikiText{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#wikiVerzeichnisHead{
+    margin-left: 3vw;
+    font-size: 2rem;
+    margin-top: 2vh;
+}
+
+#wikiImg{
+    position: absolute;
+    right: 3vw;
+    max-height: auto;
+    max-width: 25%;
+
+    border: 10px solid #252525;
+}
+/* /Wikikram*/
