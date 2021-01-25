@@ -298,7 +298,7 @@ indexText{
 }
 
 #wikiText{
-    font-size: 75%;
+    font-size: 50%;
     margin-left: 2vw;
     margin-right: 2vw;
 }
@@ -310,14 +310,13 @@ indexText{
 }
 
 #wikiImg{
-    margin-top: 4vh;
-    margin-bottom: 4vh;
 
     margin-left: auto;
     margin-right: auto;
     display: block;
 
-    border: 20px solid #252525;
+    width: 100%;
+    filter: grayscale(100%);
 }
 
 #wikiH1{
@@ -342,7 +341,7 @@ indexText{
     margin-right: auto;
     display: block;
 
-    filter: grayscale(100%);
+    filter: grayscale(85%);
 }
 
 #scrollable{
