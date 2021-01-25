@@ -208,15 +208,18 @@ input:hover {
 }
 
 #blogEintrag {
-    padding-right: 2%;
-    padding-left: 2%;
-    font-size: 350%;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 75%;
+
+    margin-top: 8vh;
 }
 
 .blogEintragNav{
     position: fixed;
     z-index: 500;
     width: 100%;
+    font-size: 200%;
 }
 
 #offscreenMobile{
@@ -290,12 +293,12 @@ indexText{
 
 /* Wikikram*/
 #wikiVerzeichnis{
-    font-size: 4vh;
+    font-size: 3vh;
     margin-left: 7vw;
 }
 
 #wikiText{
-    font-size: 1vh;
+    font-size: 75%;
     margin-left: 2vw;
     margin-right: 2vw;
 }
