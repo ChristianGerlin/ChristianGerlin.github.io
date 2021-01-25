@@ -76,3 +76,15 @@ function spotify(){
         spotifyVisible = "0";
     }
 }
+
+function telefon(){
+    if (spotifyVisible == "0") {
+        document.getElementById("telefon").style["display"] = "inherit";
+        document.getElementById("telefonArrow").style["transform"] = "rotate(-180deg)";
+        spotifyVisible = "1";
+    } else {
+        document.getElementById("telefon").style["display"] = "none";
+        document.getElementById("telefonArrow").style["transform"] = "rotate(0deg)";
+        spotifyVisible = "0";
+    }
+}

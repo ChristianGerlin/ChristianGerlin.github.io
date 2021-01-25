@@ -1,8 +1,8 @@
-#email, #instagram, #facebook, #twitter, #youtube, #spotify {
+#email, #instagram, #facebook, #twitter, #youtube, #spotify, #telefon {
     display: none;
 }
 
-#emailArrow, #instagramArrow, #facebookArrow, #twitterArrow, #youtubeArrow, #spotifyArrow{
+#emailArrow, #instagramArrow, #facebookArrow, #twitterArrow, #youtubeArrow, #spotifyArrow, #telefonArrow{
     content:url('/src/img/red_arrow.png');
     height: 0.85em;
     transition: ease-out 0.4s;
