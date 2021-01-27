@@ -3,9 +3,8 @@
     background-color: #252525;
     overflow: hidden;
     position: relative;
-
     padding-left: 7.5vw;
-    padding-right: 7.5vw;
+    margin-right: auto;
 }
 
 .topnavfixed{

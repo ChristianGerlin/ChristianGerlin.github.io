@@ -5,10 +5,12 @@
     position: relative;
 
     padding-left: 5vw;
-    padding-right: 5vw;
+    padding-right: auto;
 
     text-transform: uppercase;
     font-weight: 600;
+
+    width: 100%;
 }
 
 .topnavfixed{
