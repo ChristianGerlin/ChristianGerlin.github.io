@@ -275,8 +275,15 @@ input:hover {
     margin-right: auto;
 
     border: 20px solid #252525;
+    border-bottom: 0;
 
     filter: grayscale(100%);
+}
+
+#prImgCap{
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(60vw + 40px);
 }
 
 #projectsImg{ /* actually image on kontakt.html*/

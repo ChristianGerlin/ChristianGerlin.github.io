@@ -329,6 +329,10 @@ indexText{
     filter: grayscale(100%);
 }
 
+#prImgCap{
+    margin-top: -9px;
+}
+
 #projectsImg{
     height: auto;
     width: 100%;
