@@ -4,10 +4,6 @@
     overflow: hidden;
     position: relative;
 
-    padding-left: 5vw;
-    padding-right: auto;
-
-    text-transform: uppercase;
     font-weight: 600;
 
     width: 100%;
@@ -290,7 +286,7 @@ indexText{
 }
 
 .indexTopMargin{
-    top:22vh;
+    top:27vh;
 }
 
 /* Wikikram*/
@@ -334,8 +330,6 @@ indexText{
 }
 
 #projectsImg{
-    margin-bottom: 4vh;
-
     height: auto;
     width: 100%;
 
@@ -344,6 +338,18 @@ indexText{
     display: block;
 
     filter: grayscale(85%);
+}
+
+#projectsImgCap{
+    text-align: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    color: #00FFC2;
+    background-color: #252525;
+    max-width: 100%;
 }
 
 #scrollable{

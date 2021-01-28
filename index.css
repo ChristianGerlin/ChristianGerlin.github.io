@@ -279,7 +279,7 @@ input:hover {
     filter: grayscale(100%);
 }
 
-#projectsImg{
+#projectsImg{ /* actually image on kontakt.html*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -290,13 +290,31 @@ input:hover {
     max-width: 25%;
 
     border: 10px solid #252525;
+    border-bottom: 0;
 
     filter: grayscale(100%);
 }
+
+#projectsImgCap{
+    text-align: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #00FFC2;
+    background-color: #252525;
+    max-width: calc(25% + 20px);
+}
+/*/*/
 
 #scrollable{
     filter: invert(11%) sepia(2%) saturate(5%) hue-rotate(314deg) brightness(93%) contrast(89%);
     height: 5vh;
     bottom: 5vh;
     left: 2vw;
+}
+
+#indexInsta{
+    margin-bottom: 0;
 }
