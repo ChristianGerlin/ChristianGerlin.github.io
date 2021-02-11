@@ -7,6 +7,10 @@
     font-weight: 600;
 
     width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .topnavfixed{
@@ -277,7 +281,7 @@ input:hover {
 
 #indexHeadline{
     font-size: 5vh;
-    line-height: 8vh;
+    line-height: 2vh;
 }
 
 indexText{
@@ -286,7 +290,11 @@ indexText{
 }
 
 .indexTopMargin{
-    top:27vh;
+    margin: 0;
+    position: absolute;
+    top: 55vh;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 /* Wikikram*/
