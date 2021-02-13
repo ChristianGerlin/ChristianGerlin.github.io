@@ -1,5 +1,10 @@
-$("#nav-placeholder").load("/nav.html");
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/Android/i))) {
+    $("#nav-placeholder").load("/m.nav.html");
 var current = location.pathname.split("/")[1];
+} else {
+    $("#nav-placeholder").load("/nav.html");
+    var current = location.pathname.split("/")[1];
+}
 
 if(current == "m.kontakt.html"){
     current = "kontakt.html";

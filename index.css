@@ -27,6 +27,21 @@
     text-transform: uppercase;
 }
 
+/* Style the buttons inside the navigation bar */
+.topnav button {
+    float: left;
+    color: #00FFC2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    text-transform: uppercase;
+    background-color: #252525;
+
+    outline: none;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     font-family: Infra-Bold;
