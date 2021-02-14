@@ -292,7 +292,7 @@ indexText{
 .indexTopMargin{
     margin: 0;
     position: absolute;
-    top: 55vh;
+    top: 60vh;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
