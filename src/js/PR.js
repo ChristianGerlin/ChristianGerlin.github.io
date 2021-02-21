@@ -4,6 +4,7 @@ var twitterVisible = "0";
 var emailVisible = "0";
 var youtubeVisible = "0";
 var spotifyVisible = "0";
+var vortragVisible = "0";
 
 function instagram(){
     if (instagramVisible == "0") {
@@ -74,5 +75,17 @@ function spotify(){
         document.getElementById("spotify").style["display"] = "none";
         document.getElementById("spotifyArrow").style["transform"] = "rotate(0deg)";
         spotifyVisible = "0";
+    }
+}
+
+function vortrag(){
+    if (vortragVisible == "0") {
+        document.getElementById("vortrag").style["display"] = "inherit";
+        document.getElementById("vortragArrow").style["transform"] = "rotate(-180deg)";
+        vortragVisible = "1";
+    } else {
+        document.getElementById("vortrag").style["display"] = "none";
+        document.getElementById("vortragArrow").style["transform"] = "rotate(0deg)";
+        vortragVisible = "0";
     }
 }

@@ -1,8 +1,8 @@
-#email, #instagram, #facebook, #twitter, #youtube, #spotify {
+#email, #instagram, #facebook, #twitter, #youtube, #spotify, #vortrag {
     display: none;
 }
 
-#emailArrow, #instagramArrow, #facebookArrow, #twitterArrow, #youtubeArrow, #spotifyArrow{
+#emailArrow, #instagramArrow, #facebookArrow, #twitterArrow, #youtubeArrow, #spotifyArrow, #vortragArrow{
     content:url('/src/img/red_arrow.png');
     height: 0.85em;
     transition: ease-out 0.4s;
@@ -11,7 +11,8 @@
 
 #mh4 {
     font-size: 125%;
-    color: #252525;
+    background-color: #252525;
+    color: #00FFC2;
 }
 
 .h4{
