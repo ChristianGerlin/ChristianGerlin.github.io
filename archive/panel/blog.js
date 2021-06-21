@@ -75,7 +75,7 @@ function Speichern(){
             </html>';
 
     download(content, filename, "text/html");
-    
+
     inhaltPreview = inhalt.slice(0, 160) + "..."
     link = '/' + filename + '.html';
 
@@ -84,6 +84,6 @@ function Speichern(){
         <div class="datum">' + datum + '</div>\n\
         <p id="inhaltPreview">' + inhaltPreview +'</p>\n\
         </div></a>'
-    
+
     download(blogLink, filename, "text");
 }
